@@ -4,7 +4,8 @@ import Rainbow from "./Rainbow";
 const Contact = (props) => {
   setTimeout(() => {
     props.history.push("/");
-  }, 5000);
+  }, 8000);
+
   return (
     <div className="">
       <h1>Contact</h1>
